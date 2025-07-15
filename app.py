@@ -64,7 +64,6 @@ def handle_historical_conversion(parameters):
 
     final_amount = convert.convertInterval(start_date, source_currency, target_currency, amount)
     response_text = f"{amount} {source_currency} on {start_date[:4]} was {final_amount} {target_currency}"
-
     return jsonify({'fulfillmentText': response_text})
 
 
@@ -86,7 +85,6 @@ def handle_amount_conversion(parameters, prefix, suffix):
         f"{amount} {source_currency} will be {final_amount} {target_currency}.\n\n"
         f"{suffix}"
     )
-    print(response_text)
     return jsonify({'fulfillmentText': response_text})
 
 
