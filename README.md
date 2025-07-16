@@ -152,8 +152,6 @@ How much is 50 EUR in GBP?
 ```bash
 currency-converter-chatbot/
 │
-├── .env                         # Environment variables (not pushed to repo)
-├── .venv                        # Virtual environment (not pushed to repo)
 ├── .gitignore                   # Git ignore rules (should include .venv, .env, __pycache__)
 ├── app.py                       # Main Flask application handling webhook logic
 ├── architecture_diagram.png     # Contains Project architectural diagram.
