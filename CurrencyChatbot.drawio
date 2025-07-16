@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="3hpW5wxRmmlyTK20MXDO">
+    <mxGraphModel dx="1042" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="23QexYG8zHysC3_6MCAs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-1" target="23QexYG8zHysC3_6MCAs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="205" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-2" value="USER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="272.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-3" target="23QexYG8zHysC3_6MCAs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-3" value="User&lt;div&gt;Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-3" target="23QexYG8zHysC3_6MCAs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-7" value="Query" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-8" value="&lt;font&gt;Telegram Bot&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-9" target="23QexYG8zHysC3_6MCAs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-9" value="Dialogflow (NLU)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-12" value="Sends the message&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-13" value="It detects the intents and entities" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-14" value="Does the conversion of currency using API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="197.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-17" value="Dialogflow webhook sends request to the Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-21" value="Flask Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="150" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.571;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-14" target="23QexYG8zHysC3_6MCAs-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="320" as="sourcePoint" />
+            <mxPoint x="619" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="764" y="350" />
+              <mxPoint x="395" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-25" value="Dialogflow sends the response to the User Interface (Telegram)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202" y="310" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-26" value="The converted currency is returned to Dialogflow via webhook response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-27" value="Ngrok tunneling is used to connect with backend locally" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="175" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="23QexYG8zHysC3_6MCAs-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="23QexYG8zHysC3_6MCAs-9" target="23QexYG8zHysC3_6MCAs-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="320" />
+              <mxPoint x="223" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
