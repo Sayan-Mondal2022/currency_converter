@@ -2,7 +2,6 @@
 
 A Telegram chatbot that converts currency values in real time using natural language inputs. Built using Google's Dialogflow for Natural Language Understanding (NLU), Flask for the backend API, and a currency exchange API to fetch live rates.
 
----
 
 ## 🖥️ User Interface Overview
 
@@ -10,7 +9,6 @@ The user interface is a Telegram chatbot that accepts natural language inputs li
 
 ![image](https://github.com/user-attachments/assets/1c9f2bf8-5351-4b61-b47c-20b83e9dd8ba)
 
----
 
 ## 🎬 Project Demonstration
 
@@ -36,15 +34,12 @@ Absolutely! 100.0 USD will be 8593.59 INR. Anything else you want to convert?
 Here’s the conversion: 10000.0 KRW will be 619.87 INR. Want to compare with another currency?
 ```
 
----
-
 ## 🧩 Architectural Design
 
 The architecture illustrates a Telegram chatbot integrated with Dialogflow for NLU and a Flask backend for real-time currency conversion. Dialogflow communicates with the backend via webhook (exposed using Ngrok) and returns responses back to the user through the Telegram interface.
 
 ![image](https://github.com/user-attachments/assets/ac147a19-9a34-486b-92ef-0456dea68455)
 
----
 
 ## 🚀 Features
 
@@ -54,7 +49,6 @@ The architecture illustrates a Telegram chatbot integrated with Dialogflow for N
 - 🌐 Flask backend with API integration
 - 🔄 Ngrok tunneling for local development with Dialogflow webhooks
 
----
 
 ## 🔍 How It Works
 
@@ -66,7 +60,6 @@ The architecture illustrates a Telegram chatbot integrated with Dialogflow for N
 - **Currency Conversion Logic**: The Flask backend uses a Currency Exchange API (e.g., `Freecurrencyapi`) to fetch live exchange rates and performs the conversion.
 - **Response Flow**: The converted amount is returned as a webhook response to Dialogflow, which then sends it back to the Telegram Bot interface, completing the loop.
   
----
 
 ## 🛠️ Tech Stack
 
@@ -76,7 +69,6 @@ The architecture illustrates a Telegram chatbot integrated with Dialogflow for N
 - **API for Currency Conversion**: [Freecurrencyapi](https://freecurrencyapi.com/)
 - **Tunneling**: [Ngrok](https://ngrok.com/)
 
----
 
 ## 🛠️ Setup Instructions
 
@@ -145,8 +137,6 @@ Convert 100 USD to INR
 How much is 50 EUR in GBP?
 ```
 
----
-
 ## 🗂️ Project Structure
 
 ```bash
@@ -160,8 +150,6 @@ currency-converter-chatbot/
 └── README.md                    # Project documentation
 ```
 
----
-
 ## 🙏 Acknowledgement
 
 I would like to express my sincere gratitude to the following platforms and tools that made this project possible:
@@ -174,4 +162,9 @@ I would like to express my sincere gratitude to the following platforms and tool
 
 Special thanks to the open-source community for documentation, examples, and inspiration.
 
----
+## 🙌 Thank You
+Thank you for taking the time to explore this project!
+I hope this spam detection system is helpful for learning, experimentation, and real-world understanding of text classification.
+
+If you have any feedback, suggestions, or improvements, feel free to reach out or raise an issue.
+Happy coding! 🚀
